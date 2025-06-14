@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About us - Sunke Fashion</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="container">
+    <div class="logo">Sunke Fashion</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact-form container">
+    <h2>Contact us</h2>
+    <form>
+      <label for="name">姓名</label>
+      <input type="text" id="name" name="name" placeholder="请输入您的姓名" required />
+
+      <label for="email">邮箱</label>
+      <input type="email" id="email" name="email" placeholder="请输入您的邮箱" required />
+
+      <label for="message">留言内容</label>
+      <textarea id="message" name="message" rows="6" placeholder="请输入您的留言" required></textarea>
+
+      <button type="submit">发送留言</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Sunke Fashion. All rights reserved.
+  </footer>
+</body>
+</html>
